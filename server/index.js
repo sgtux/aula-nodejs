@@ -18,7 +18,6 @@ const server = http.createServer((req, res) => {
     }
 
     const token = headerAuthorization.replace('Bearer ', '')
-    console.log(token)
 
     if (token !== 'testetoken123') {
         res.writeHead(401)
