@@ -1,0 +1,8 @@
+{
+    "scripts": {
+        "start": "nodemon --watch index.js index.js"
+    },
+    "dependencies": {
+        "nodemon": "^3.1.7"
+    }
+}
